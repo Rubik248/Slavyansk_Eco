@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML & CSS практика от AVIS TV</title>
+
+	<!-- Bootstrap reboot (для сброса стилей) -->
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<!-- Bootstrap сетка -->
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<!-- Шрифты с Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b8991598b2.js"></script>
+	<!-- Стили сайта -->
+	<link rel="stylesheet" href="css/styles.css">
+    <style>
+        hr{
+            border: none;
+            background-color: black;
+            color: black;
+            height: 2px;
+            
+        }
+         .line {
+    border-bottom: 4px solid #f00; /* Параметры линии */
+    align-items: center;
+   }
+    </style>
+    
+</head>
+<body bgcolor="#FAEBD7">
+    <header class="aligncenter" style="display: flex;">
+         <div class="header_block1">
+        <img class="header_block1_img" src="Торговый-знак-с-названием.png" alt="">
+      </div>
+      <div class="header_block2">
+        <p class="header_block2_txt">УЧЕБНЫЙ ЦЕНТР ООО "СЛАВЯНСК ЭКО"</p>
+      </div>
+      <div class="header_block3">
+        <a class="header_block3_link" href="">Версия для <br> слабовидящих</a>
+      </div>
+    </header>
+     
+        <hr>
+       <div class="search-box">
+    <input class="search-txt" type="text"  name="" placeholder="Поиск...">
+           <a class="search-btn" href="#">
+           <i class="fa fa-search" aria-hidden="true"></i></a>
+    
+    </div>
+    <hr>
+  <nav>
+  <ul class="menu">
+      <li><a href="ocnovnue cvedenue.html"target="_self">Основные сведения</a></li>
+    <li><a href="obrazovanue.html">Образование</a></li>
+      <li><a href="Stryktyru.html"target="_self">Структура и органы управления</a></li>
+      <li><a href="dokyment.html">Документы</a></li>
+    <li><a href="pykovodstvo.html">Руководство</a></li>
+      <li><a href="materual.html">Материально-техническое обеспечение и оснащенность образовательного процесса</a></li>
+    <li><a href="speda.html">Доступная среда</a></li>
+      <li><a href="pruem.html">Вакантные места для приема</a></li>
+      <li><a href="Attestation.html">Аттестация специалистов</a></li>
+  </ul>
+</nav>
+    
+<div id="text">
+    <img src="img.jpg" style="float: left">
+    
+ <section>
+        
+
+        <center> <h2 id="Ctryktypa">"Структура и органы управления образовательной организацией"</h2> </center>
+        <hr width="500px" size="10px" color="black" align="right"><p style="font-size: 24px;">Генеральный Директор:</p>
+
+            <hr width="500px" size="10px" color="black" align="right"><p style="font-size: 24px;">Испольнительный Директор:</p>
+
+            <hr width="500px" size="10px" color="black" align="right"><p style="font-size: 24px;">Директор службы  ОТ, экологии и ПБ:</p>
+
+            <hr width="500px" size="10px" color="black" align="right"><p style="font-size: 24px;">Начальник Учебного центра:</p>
+
+            <hr width="500px" size="10px" color="black" align="right"> <p style="font-size: 24px;">Специалист по обучению:</p>
+            <hr width="500px" size="10px" color="black" align="right">
+    </section>
+        
+
+       
+    </div>
+    
+  
+    <script>
+      import { useEffect } from "react";
+  import { useLocation } from "react-router-dom";
+  
+  export default function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
+  </script>
+    
+ 
+            
+    
+    
+</body>
+</html>

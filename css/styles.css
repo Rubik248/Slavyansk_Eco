@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.logo{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+
+}
+.aligncenter {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 0;
+}
+.header_block1_img {
+  width: 260px;
+}
+.header_block2_txt {
+  font-size: 40px;
+  margin: 0;
+  padding-top: 100px;
+  padding-right: 150px;
+
+}
+
+.header_block3_link {
+  color: black;
+  font-size: 20px;
+
+}
+
+.versuu {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.head{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  gap: 100px;
+
+}
+.opusanue {
+  font-size: 24px;
+  font-family:'Times New Roman', Times, serif;
+  gap: 20px;
+  padding-left: 29em;
+  word-spacing: 6px;
+}
+
+
+.search-form{
+   border: 1px solid #1C1C1C;
+   display: inline-flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+    
+.dd{
+    display: block;
+    
+    
+}
+
+.circle {
+    border-radius: 50%;  /* Скругление углов изображения */
+    border: 5px solid #fff; /* Цвет и ширину рамки */
+    box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
+}
+
+.search-form_btn{
+    border: none;
+    background-color: transparent;
+}
+
+
+.search-form_txt{
+    border: none;
+    width: 200px;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    
+}
+
+.search-form_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.1{
+    padding: inherit;
+    
+}
+.ocnovnoe{
+padding: 0px;
+border: 50px;
+margin: 10px;
+text-align: center;
+
+}
+.image-wrap {
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    
+}
+.image-center {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    text-align: center;
+}
+.category-wrap {
+  padding: 15px;
+  background: white;
+  width: 200px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.category-wrap h3 {
+  font-size: 16px;
+  color: rgba(0,0,0,.6);
+  margin: 0 0 10px;
+  padding: 0 5px;
+  position: relative;
+}
+.category-wrap h3:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #80C8A0;
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  box-shadow: -8px -8px #80C8A0, 0 -8px #80C8A0, -8px 0 #80C8A0;
+}
+.category-wrap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  border-top: 1px solid rgba(0,0,0,.3);
+}
+.category-wrap li {margin: 12px 0 0 0px;}
+.category-wrap a {
+  text-decoration: none;
+  display: block;  
+  font-size: 13px;
+  color: rgba(0,0,0,.6);
+  padding: 5px;
+  position: relative;
+  transition: .3s linear;
+}
+.category-wrap a:after {
+  content:"\f18e";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 5px;
+  color: white;
+  transition: .2s linear;
+}
+.category-wrap a:hover {
+  background: #80C8A0;
+  color: white;
+}
+#main{
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right:10px;
+padding-top:10px;
+margin:12px
+}
+body{
+    background-color: #FFFAFA;
+}
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+}
+
+
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+}
+.menu li a:hover {
+  color: grey;
+}
+#text{
+    position: relative;
+    
+}
+.text2{
+    
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 170px;
+    font-weight: bold;
+    font-size: 36px;
+    
+}
+.img{
+    height: 150px;
+}
+
+.footer{
+    background-color: black;
+    padding: 50px 0 32px;
+    color: #fff;
+
+}
+
+
+.footer__menu{
+display: flex;
+}
